@@ -6,10 +6,10 @@ import React from "react";
 const Header = () => {
   return (
     <header className="bg-gray-9000 py-4 px-6 flex items-center justify-between">
-      <Link href="/" className="flex items-center">
+      <div className="flex items-center">
         <Image src={logo} alt="" width={80} height={80} />
-        <span className="text-4xl font-semibold ml-2">Rádio Diversidade</span>
-      </Link>
+        <h1 className="text-4xl font-semibold ml-2">Rádio Diversidade</h1>
+      </div>
     </header>
   );
 };
