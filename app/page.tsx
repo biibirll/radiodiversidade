@@ -11,7 +11,6 @@ const Home = () => {
 
         <h2 className="text-xl mb-6 font-semibold">Escute ao vivo</h2>
         <VoxPlayer />
-        {/* <AzuracastPlayer /> */}
       </div>
     </div>
   );
