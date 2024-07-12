@@ -1,6 +1,7 @@
 "use client";
 
 import AzuracastPlayer from "./components/embeds/AzuracastPlayer";
+import VoxPlayer from "./components/embeds/VoxPlayer";
 
 const Home = () => {
   return (
@@ -9,7 +10,8 @@ const Home = () => {
         <p className="text-2xl mb-8 mt-2 font-semibold">Aqui toca o seu som!</p>
 
         <h2 className="text-xl mb-6 font-semibold">Escute ao vivo</h2>
-        <AzuracastPlayer />
+        <VoxPlayer />
+        {/* <AzuracastPlayer /> */}
       </div>
     </div>
   );
